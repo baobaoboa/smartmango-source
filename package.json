@@ -1,0 +1,49 @@
+{
+  "name": "smartmango",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cloud-annotations/object-tracking": "^0.0.5",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@techstark/opencv-js": "^4.8.0-release.4",
+    "@tensorflow/tfjs": "^4.12.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.12.0",
+    "@tensorflow/tfjs-backend-webgpu": "^4.12.0",
+    "flowbite-react": "^0.6.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    "react-scripts": "^5.0.1",
+    "webpack": "^4.10.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1",
+    "tailwindcss": "^3.3.3",
+    "webpack-cli": "^4.10.0"
+  }
+}
